@@ -6,6 +6,22 @@ Browser-based device control and sensor monitoring, connected to real ESP32 hard
 
 > This link opens a hardware-connected prototype. Device availability depends on power and Wi-Fi. Controls may operate physical hardware.
 
+## Screenshots
+
+### Dashboard overview
+
+![TOOZLY dashboard with RGB lighting, presence and motion sensors](docs/images/dashboard-overview.png)
+
+### Servo Studio
+
+![Servo Studio with angle slider and preset controls](docs/images/servo-studio.png)
+
+### DC Motor Studio
+
+![DC Motor Studio with direction, PWM speed and motion tools](docs/images/dc-motor-studio.png)
+
+Screenshots show the prototype at the time of capture; live device states may differ.
+
 ## What it does
 
 | Feature | Dashboard capabilities |
@@ -40,11 +56,11 @@ The web dashboard exchanges MQTT messages through EMQX Cloud. The ESP32 receives
 
 ## Repository contents
 
-This initial repository documents the project and links to the hosted dashboard. It does not yet include firmware or dashboard source files.
+This initial repository documents the project, includes dashboard screenshots and links to the hosted dashboard. It does not yet include firmware or dashboard source files.
 
 ## Next steps
 
-- Add dashboard screenshots and a short physical hardware demo.
+- Add a short physical hardware demo video.
 - Prepare source files with credentials removed and example configuration.
 - Document the verified wiring and setup for a reproducible build.
 
